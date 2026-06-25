@@ -174,12 +174,26 @@ nav {
   margin: 25px auto 40px;
 }
 
-orders.section-box 
-  {  background-image: url("images/background.jpeg");
-  background-size: cover;       /* Scale image to cover entire area */
-  background-position: center;  /* Center the image */
-  background-repeat: no-repeat; /* Prevent tiling */
-  min-height: 100vh;            /* Ensure full height */}
+.section-box-orders
+  {  
+    padding: 100px 20px;
+    max-width: 900px;
+    margin: auto;
+    text-align: center;
+    background-image: url("images/background.jpeg");
+    background-size: cover;       /* Scale image to cover entire area */
+    background-position: center;  /* Center the image */
+    background-repeat: no-repeat; /* Prevent tiling */
+    min-height: 100vh;            /* Ensure full height */
+  }
+
+  .section-box-orders p {
+  font-size: 16px;
+  line-height: 1.9;
+  color: #555;
+  max-width: 750px;
+  margin: 25px auto 40px;
+  }
 
 /* BOTTONI (ORA CORRETTI) */
 .buttons {
@@ -306,7 +320,7 @@ function changeSlide(button, direction) {
   </div>
 </section>
 
-<section id="orders" class="section-box">
+<section id="orders" class="section-box-orders">
   <h2 class="section-title">Ordini</h2>
 
   <p>
