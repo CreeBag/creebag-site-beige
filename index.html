@@ -248,6 +248,24 @@
       background: #eee7de;
       font-size: 14px;
     }
+
+    @media (max-width: 768px) {
+  .products {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    padding: 40px 20px;
+  }
+
+  .card img,
+  .slider img {
+    height: 220px;
+  }
+
+  .card h3 {
+    font-size: 18px;
+    padding: 10px;
+  }
+}
   </style>
 </head>
 
