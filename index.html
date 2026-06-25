@@ -264,6 +264,12 @@
       .card h3 {
         font-size: 16px;
       }
+
+      .marine-card img {
+        object-fit: contain;   /* invece di cover */
+        background: #fff;      /* opzionale, evita “buchi” brutti */
+        padding: 10px;         /* opzionale, la fa respirare */
+  }
     }
   </style>
 </head>
@@ -312,7 +318,7 @@
 
     <div class="products">
 
-      <div class="card">
+      <div class="card marine-card">
         <img src="images/marine.png" alt="Pochette Marine">
         <h3>Pochette Marine</h3>
       </div>
@@ -328,7 +334,7 @@
       </div>
 
       <div class="card">
-        <img src="images/berry.png" alt="Modello Berry">
+        <img src="images/berry1.png" alt="Modello Berry">
         <h3>Modello Berry</h3>
       </div>
 
@@ -360,6 +366,10 @@
         <h3>Clutch</h3>
       </div>
 
+      <div class="card"> <img src="images/linda.jpg" alt="Clutch Paillettes">
+        <h3>Modello Linda</h3>
+      </div>
+      
       <div class="card">
         <div class="slider">
           <img class="active" src="images/choker.jpeg" alt="Choker">
